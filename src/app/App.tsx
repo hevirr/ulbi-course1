@@ -6,6 +6,8 @@ import { AppRouter } from 'app/providers/router';
 import { NavBar } from 'widgets/NavBar';
 import { SideBar } from 'widgets/SideBar';
 
+// TODO: remove empty scss modules and their imports
+
 const App = () => {
   const { theme } = useTheme();
   return (
